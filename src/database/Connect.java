@@ -16,9 +16,13 @@ public class Connect {
     	
     }
 	public Connection getConnection()  {
-		if(conn!=null) {
-			//System.out.println("success> get connection");
-			return conn;
+		try {
+			if(conn!=null && !conn.isClosed()) {
+				//System.out.println("success> get connection");
+				return conn;
+			}
+		} catch (SQLException e1) {
+			e1.printStackTrace();
 		}
 		//System.out.println("start> connect database:");
 		try {
