@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" />
+<link rel="stylesheet" type="text/css" href="css/gracss.css">
+<link rel="stylesheet" type="text/css" href="css/activity.css">
+<link rel="stylesheet" type="text/css" href="css/friend.css">
+<title>活动管理</title>
+<script type="text/javascript" charset="utf-8" src="js/jquery/jquery-1.11.3.min.js"></script>
+<script type="text/javascript" charset="utf-8" src="js/jquery/jquery.cookie.min.js"></script>
+<script type="text/javascript" charset="utf-8" src="js/grajs.js"></script>
+<script type="text/javascript" charset="utf-8" src="js/sel2hdManage.js"></script>
+<script type="text/javascript" charset="utf-8" src="js/WebSocket/WebSocketRemind.js"></script>
+</head>
+<body>
+<div id="loginCheck"></div>
+<div id="header">
+	<h1 id=h1>引力</h1>
+	<div class="gravitypicarea" id="gravitypicarea"><img class="gravitypic" id="gravitypic" alt="引力" src="pic/icon/gravity.svg"></div>
+	<div id="zxl">
+		<div id=tx><img id=tximg src="pic/icon/defheadpic.svg" alt="头像"/></div>
+		<div id=yhzx>
+			<div id=hyuser>欢迎</div>
+			<div id=zx><a id=zxa href="/gravity2/sel1syNoid.html">注销</a></div>
+		</div>
+	</div>
+</div>
+<div id="header2"></div>
+<div class=reminder>
+	<div class=reminderTipCon>
+		<div class=reminderTip>有新消息！</div>
+		<div class=reminderBtn id=reminderBtnCheck>查看</div>
+		<div class=reminderBtn id=reminderBtnCheckBk>收起</div>
+		<div class=reminderBtn id=reminderBtnIgnore>忽略</div>
+	</div>	
+	<table class=reminderListCon>
+		<tr class=reminderListElem>
+			<td class=reminderListElemName>好友</td>
+			<td class=reminderListElemNum>未读</td>
+		</tr>
+	</table>
+</div>
+<div id="header3">
+	    <table id="select">
+	        <tr>
+	            <td><a href="sel1sy.html?">首页</a></td>
+	            <td style="border:0.7vmin dashed #ffffff;"><a href="sel2hd.html?">活动</a></td>
+				<td><a href="sel3hy.html?">好友</a></td>
+				<td><a href="sel4gr.html?">个人</a></td>
+	        </tr>
+	    </table>
+</div>
+<div id="addswit">
+	<form>
+	<table id="addswittable">
+	<tr>
+		<td class=addswitelemcon>昵称：<br><input type="text" class=addswitelem name="addswitnname" id="addswitnname"></td>
+		<td class=addswitelemcon>姓名：<br><input type="text" class=addswitelem name="addswitname" id="addswitname"></td>
+		<td class=addswitelemcon>地区：<br><input type="text" class=addswitelem name="addswitarea" id="addswitarea"></td>
+		<td class=addswitelemcon>申请状态：<br><select class=addswitelem name="addswitflag" id="addswitflag">
+						<option value="">全部</option>
+						<option value="待审">待审</option>
+						<option value="同意">同意</option>
+						<option value="拒绝">拒绝</option>
+		</select></td>
+        <td class=addswitelemcon><input id="addswitsubmit" type="button" value="筛选"></td>
+    </tr>
+    </table>
+	</form>
+</div>
+<div id=seltip>
+	<div id=seltippoint>
+		<div id=managejoinp class=seltipp1>▼</div>
+		<div id=managelikep class=seltipp2>▼</div>
+		<div id=managebackp class=seltipp3>▼</div>
+	</div>
+	<div id=seltipname>
+		<div id=managejoin class=seltip1>报名的人</div>
+		<div id=managelike class=seltip2>收藏的人</div>
+		<div id=manageback class=seltip3>返回</div>
+	</div>
+	<div id=seltipline></div>
+</div>
+<div id=selectactivity></div>
+<div id="isbottom">下拉加载更多</div>
+</body>
+</html>

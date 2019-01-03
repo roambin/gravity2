@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xl="http://www.w3.org/1999/xlink" version="1.1" viewBox="-455 -2107 812 744" width="812pt" height="62pc" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <metadata> Produced by OmniGraffle 7.2 
+    <dc:date>2018-11-06 19:30:05 +0000</dc:date>
+  </metadata>
+  <defs>
+    <font-face font-family="AR NaGoMiPOPGB" font-size="170" panose-1="4 11 8 0 0 0 0 0 0 0" units-per-em="1000" underline-position="-50" underline-thickness="50" slope="0" x-height="498" cap-height="721" ascent="880.0049" descent="-119.99512" font-weight="bold">
+      <font-face-src>
+        <font-face-name name="ARNaGoMiPOPGB-BD"/>
+      </font-face-src>
+    </font-face>
+  </defs>
+  <g stroke="none" stroke-opacity="1" stroke-dasharray="none" fill="none" fill-opacity="1">
+    <title>版面 1</title>
+    <rect fill="white" width="1018" height="1024"/>
+    <g>
+      <title>图层 1</title>
+      <path d="M -59 -1537.4 C -167.8 -1537.4 -251 -1627 -251 -1729.4 C -251 -1780.6 -231.8 -1831.8 -193.4 -1863.8 C -187 -1870.2 -187 -1870.2 -180.6 -1863.8 C -174.2 -1857.4 -174.2 -1857.4 -180.6 -1851 C -212.6 -1819 -231.8 -1774.2 -231.8 -1729.4 C -231.8 -1633.4 -155 -1550.2 -52.6 -1550.2 C 5 -1550.2 56.2 -1575.8 88.2 -1620.6 C 88.2 -1627 94.6 -1627 101 -1620.6 C 107.4 -1620.6 107.4 -1614.2 101 -1607.8 C 62.6 -1563 5 -1537.4 -59 -1537.4 Z" fill="#ff4672"/>
+      <path d="M -180.6 -1723 C -180.6 -1655.8422 -126.15783 -1601.4 -59 -1601.4 C 8.157826 -1601.4 62.6 -1655.8422 62.6 -1723 C 62.6 -1790.1578 8.157826 -1844.6 -59 -1844.6 C -126.15783 -1844.6 -180.6 -1790.1578 -180.6 -1723 Z" fill="#ff4672"/>
+      <path d="M -155 -1876.6 L -161.4 -1876.6 L -161.4 -1889.4 L 11.4 -2043 L 24.2 -2043 L 24.2 -2030.2 L -155 -1876.6 C -148.6 -1876.6 -155 -1876.6 -155 -1876.6 Z M 126.6 -1646.2 C 120.2 -1652.6 120.2 -1659 120.2 -1659 L 261 -1787 C 267.4 -1793.4 267.4 -1787 273.8 -1787 C 280.2 -1780.6 273.8 -1780.6 273.8 -1774.2 L 126.6 -1646.2 C 133 -1646.2 133 -1646.2 126.6 -1646.2 Z M 17.8 -1908.6 L 11.4 -1908.6 L 11.4 -1921.4 L 216.2 -2100.6 L 229 -2100.6 L 229 -2087.8 L 17.8 -1908.6 C 24.2 -1908.6 24.2 -1908.6 17.8 -1908.6 Z M 126.6 -1761.4 L 120.2 -1761.4 L 120.2 -1774.2 L 318.6 -1947 L 331.4 -1947 L 331.4 -1934.2 Z M 88.2 -1863.8 L 81.8 -1863.8 L 81.8 -1876.6 L 344.2 -2107 L 357 -2107 L 357 -2094.2 L 88.2 -1863.8 C 94.6 -1863.8 94.6 -1863.8 88.2 -1863.8 Z" fill="#ff4672"/>
+      <text transform="translate(-449.425 -1537.2847)" fill="#e7436e">
+        <tspan font-family="AR NaGoMiPOPGB" font-size="170" font-weight="bold" fill="#e7436e" x="50.425" y="150" textLength="680">发起活动</tspan>
+      </text>
+    </g>
+  </g>
+</svg>

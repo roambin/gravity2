@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" />
+<title>首页</title>
+<link rel="stylesheet" type="text/css" href="css/gracss.css">
+<link rel="stylesheet" type="text/css" href="css/activity.css">
+<script type="text/javascript" charset="utf-8" src="js/jquery/jquery-1.11.3.min.js"></script>
+<script type="text/javascript" charset="utf-8" src="js/jquery/jquery.cookie.min.js"></script>
+<script type="text/javascript" charset="utf-8" src="js/grajs.js"></script>
+<script type="text/javascript" charset="utf-8" src="js/notLogin.js"></script>
+<script type="text/javascript" charset="utf-8" src="js/login.js"></script>
+</head>
+<body>
+<div id="header">
+	<h1 id=h1>引力</h1>
+	<div id="gravitypicarea" class="gravitypicarea"><img class="gravitypic" alt="引力" src="pic/icon/gravity.svg"></div>
+	<div id=drzc>
+		<img id=plsLogin src="pic/icon/plslogin.svg" alt="头像"/>
+		<div id=zc>注册</div>
+		<div id=dr>登入</div>
+	</div>
+</div>
+<div id="header2">
+		<h1 id=h1>引力</h1>
+		<div id="gravitypicarea2" class="gravitypicarea"><img class="gravitypic" alt="引力" src="pic/icon/gravity.svg"></div>
+		<div id=drzcl>
+			<form id=zcl class=drzcf>
+			<div class=drzcInputCon>
+				<div class="drzcWord">用户名：</div>
+				<input class="drzcInput" id="usernamezc" type="text" name="usernamezc" value="">
+			</div>
+			<div class=drzcInputCon>
+				<div class="drzcWord">密码&emsp;：</div>
+				<input class="drzcInput" id="passwordzc" type="password" name="passwordzc" value="">
+			</div>
+			<div class=drzcInputCon>
+				<div class="drzcWord">确认&emsp;：</div>
+				<input class="drzcInput" id="conpasswordzc" type="password" name="conpasswordzc" value="">
+			</div>
+			<div class=drzcBtnCon>
+				<div class=hdmbk>返回&gt;</div>
+				<input class="drzcBtn" id="btnzc" type="button" name="btnzc" value="确定" >
+			</div>
+			</form>
+			<form id=drl class=drzcf>
+			<div class=drzcInputCon>
+				<div class="drzcWord">用户名：</div>
+				<input class="drzcInput" id="usernamedr" type="text" name="usernamedr" value="">
+			</div>
+			<div class=drzcInputCon>
+				<div class="drzcWord">密码&emsp;：</div>
+				<input class="drzcInput" id="passworddr" type="password" name="passworddr" value="">
+			</div>
+			<div class=drzcBtnCon>
+				<div class=hdmbk>返回&gt;</div>
+				<input class="drzcBtn" id="btndr" type="button" name="btndr" value="确定">
+			</div>
+			</form>
+		</div>
+</div>
+<div id="header3">
+	    <table id="select">
+	        <tr>
+	            <td style="border:0.7vmin dashed #ffffff;"><a href="sel1syNoid.html">首页</a></td>
+	            <td><a class="selectcontent">活动</a></td>
+				<td><a class="selectcontent">好友</a></td>
+				<td><a class="selectcontent">个人</a></td>
+	        </tr>
+	    </table>
+</div>
+<div id="addswit">
+	<form>
+	<table id="addswittable">
+	<tr>
+		<td class=addswitelemcon>活动名：<br><input type="text" class=addswitelem name="addswitname" id="addswitname"></td>
+		<td class=addswitelemcon>活动地区：<br><input type="text" class=addswitelem name="addswitarea" id="addswitarea"></td>
+		<td class=addswitelemcon>活动分类：<br><select class=addswitelem name="addswitclas" id="addswitclas">
+						<option value="">全部</option>
+						<option value="未分类">未分类</option>
+						<option value="学习">学习</option>
+						<option value="运动">运动</option>
+						<option value="娱乐">娱乐</option>
+						<option value="旅行">旅行</option>
+						<option value="以物易物">以物易物</option>
+						<option value="其它">其它</option>
+					</select></td>
+        <td class=addswitelemcon><input id="addswitsubmit" type="button" value="筛选"></td>
+    </tr>
+    </table>
+	</form>
+</div>
+<div id=selectactivity></div>
+<div id="isbottom">下拉加载更多</div>
+<div id=addactivity></div>
+</body>
+</html>

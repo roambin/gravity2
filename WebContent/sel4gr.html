@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" />
+<link rel="stylesheet" type="text/css" href="css/gracss.css">
+<link rel="stylesheet" type="text/css" href="css/activity.css">
+<link rel="stylesheet" type="text/css" href="css/friend.css">
+<title>个人信息</title>
+<script type="text/javascript" charset="utf-8" src="js/jquery/jquery-1.11.3.min.js"></script>
+<script type="text/javascript" charset="utf-8" src="js/jquery/jquery.cookie.min.js"></script>
+<script type="text/javascript" charset="utf-8" src="js/grajs.js"></script>
+<script type="text/javascript" charset="utf-8" src="js/sel4gr.js"></script>
+<script type="text/javascript" charset="utf-8" src="js/WebSocket/WebSocketRemind.js"></script>
+</head>
+<body>
+<div id="loginCheck"></div>
+<div id="header">
+	<h1 id=h1>引力</h1>
+	<div class="gravitypicarea" id="gravitypicarea"><img class="gravitypic" id="gravitypic" alt="引力" src="pic/icon/gravity.svg"></div>
+	<div id="zxl">
+		<div id=tx><img id=tximg src="pic/icon/defheadpic.svg" alt="头像"/></div>
+		<div id=yhzx>
+			<div id=hyuser>欢迎</div>
+			<div id=zx><a id=zxa href="/gravity2/sel1syNoid.html">注销</a></div>
+		</div>
+	</div>
+</div>
+<div id="header2"></div>
+<div class=reminder>
+	<div class=reminderTipCon>
+		<div class=reminderTip>有新消息！</div>
+		<div class=reminderBtn id=reminderBtnCheck>查看</div>
+		<div class=reminderBtn id=reminderBtnCheckBk>收起</div>
+		<div class=reminderBtn id=reminderBtnIgnore>忽略</div>
+	</div>	
+	<table class=reminderListCon>
+		<tr class=reminderListElem>
+			<td class=reminderListElemName>好友</td>
+			<td class=reminderListElemNum>未读</td>
+		</tr>
+	</table>
+</div>
+<div id="header3">
+	    <table id="select">
+	        <tr>
+	            <td><a href="sel1sy.html?">首页</a></td>
+	            <td><a href="sel2hd.html?">活动</a></td>
+				<td><a href="sel3hy.html?">好友</a></td>
+				<td style="border:0.7vmin dashed #ffffff;"><a href="sel4gr.html?">个人</a></td>
+	        </tr>
+	    </table>
+</div>
+
+<div id="perMyInputSel" class="myInputSel">
+	<div class=mybtnSelCon>
+		<div id=readperinf class=mybtnSel>个人<br>信息</div>
+		<div id=editperinf class=mybtnSel>编辑<br>信息</div>
+		<div id=editperpass class=mybtnSel>修改<br>密码</div>
+    </div>
+</div>
+<div id="perinf" class="myInput">
+	<div id=myInputHeadPerinf class=myInputHead>个人信息</div><br>
+    <form id=myInputFormPerInfo class=myInputForm encType=multipart/form-data>
+    		图片:&emsp;&emsp;&emsp;&emsp;<br>
+    		<div class="picSubmitCon">
+    			<div class=picFloatInfo>点击上传图片</div>
+	    		<img id="preview" class="preview"/>
+	    	</div>
+    		<input class=myInputFileBtn type="file" name="headpic" id="headpic" onchange="imgPreview(this);"/>
+    		<div class=mybtnCon>
+			<div id=picSubmitBtn class=mybtn>修改头像</div>
+		</div>
+        昵称:&emsp;&emsp;
+        <input class=myInputText type="text" name="nname" id="nname"><br>
+        姓名:&emsp;&emsp;
+        <input class=myInputText type="text" name="name" id="name"><br>
+        邮箱:&emsp;&emsp;
+        <input class=myInputText type="text" name="email" id="email"><br>
+        地区:&emsp;&emsp;
+        <input class=myInputText type="text" name="area" id="area"><br>
+        地址:&emsp;&emsp;
+        <input class=myInputText type="text" name="adress" id="adress"><br>
+        职业:&emsp;&emsp;
+        <input class=myInputText type="text" name="job" id="job">
+        	<div class=mybtnCon>
+			<div id=perinfSubmit class=mybtn>修改信息</div>
+		</div>
+    </form>
+</div>
+
+<div id="perpass" class="myInput">
+	<div class=myInputHead>修改密码</div><br>
+    <form name="reserpass" class="myInputForm" id=myInputFormPerPass>
+        旧密码:&emsp;&emsp;&emsp;
+        <input class=myInputText type="password" name="oldpass" id="oldpass"><br>
+        新密码:&emsp;&emsp;&emsp;
+        <input class=myInputText type="password" name="newpass" id="newpass"><br>
+        确认密码:&emsp;&emsp;
+        <input class=myInputText type="password" name="connewpass" id="connewpass"><br><br>
+        <div class=mybtnCon>
+        		<div id=passSubmit class=mybtn>修改密码</div>
+		</div>
+    </form>
+
+</div>
+
+</body>
+</html>

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" />
+<link rel="stylesheet" type="text/css" href="css/gracss.css">
+<link rel="stylesheet" type="text/css" href="css/chat.css">
+<title>聊天</title>
+<script type="text/javascript" charset="utf-8" src="js/jquery/jquery-1.11.3.min.js"></script>
+<script type="text/javascript" charset="utf-8" src="js/jquery/jquery.cookie.min.js"></script>
+<script type="text/javascript" charset="utf-8" src="js/grajs.js"></script>
+<script type="text/javascript" charset="utf-8" src="js/WebSocket/WebSocketRemind.js"></script>
+<script type="text/javascript" charset="utf-8" src="js/sel3hyChat.js"></script>
+<script type="text/javascript" charset="utf-8" src="js/WebSocket/WebSocketChat.js"></script>
+
+</head>
+<body>
+<div id="loginCheck"></div>
+<div class=reminder>
+	<div class=reminderTipCon>
+		<div class=reminderTip>有新消息！</div>
+		<div class=reminderBtn id=reminderBtnCheck>查看</div>
+		<div class=reminderBtn id=reminderBtnCheckBk>收起</div>
+		<div class=reminderBtn id=reminderBtnIgnore>忽略</div>
+	</div>	
+	<table class=reminderListCon>
+		<tr class=reminderListElem>
+			<td class=reminderListElemName>好友</td>
+			<td class=reminderListElemNum>未读</td>
+		</tr>
+	</table>
+</div>
+<div class="chatBackground">
+	<div class=chatBackBtn><a class="a5" href="/gravity2/sel3hy.html">&lt;返回</a></div>
+	<div class=chatFriendName>聊天</div>
+	<div class=chatHistory>历史</div>
+	<hr class=chatTitleLine>
+	<textarea id=chatContent class=chatContent readonly="readonly"></textarea>
+	<input class=chatSend type="text">
+	<div class=chatSendBtn>发送</div>
+</div>
+</body>
+</html>

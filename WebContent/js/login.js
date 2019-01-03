@@ -1,0 +1,75 @@
+
+$(document).ready(function(){
+	$("#dr").click(function(){
+		$("#drzc").hide();
+		$("#header").fadeOut(200,function(){
+			$("#header2").fadeIn(400);
+			$(h1).animate({fontSize:"0%"},"slow",function(){
+				$("#drl").show();
+			});
+		});
+		$("#header3").slideUp();
+	});
+});
+$(document).ready(function(){
+	$("#zc").click(function(){
+		$("#drzc").hide();
+		$("#header").fadeOut(200,function(){
+			$("#header2").fadeIn(400);
+			$(h1).animate({fontSize:"0%"},"slow",function(){
+				$("#zcl").show();
+			});
+		});
+		$("#header3").slideUp();
+	});
+});
+$(document).ready(function(){
+	$(".hdmbk").click(function(){
+		$("#drl").hide();
+		$("#zcl").hide();
+		$("#header").fadeIn(function(){
+			$("#drzc").fadeIn();
+		});
+		$("#header2").hide();
+		$("#header3").slideDown();
+		$(h1).animate({fontSize:"110%"},"slow");
+	});
+});
+
+$(document).ready(function(){
+	$("#btndr").click(function(){
+		$.post("ServletLogin",{
+			"usernamedr":$("#usernamedr").val(),
+			"passworddr":$("#passworddr").val()},function(data,status){
+				if(data=="1"){
+					window.location.href="sel1sy.html?";
+				}else{
+					myalert(data);
+				}
+		});
+	});
+	$("#passwordzc,#conpasswordzc").keyup(function(){
+		if(event.keyCode ==13){
+			$("#btnzc").trigger("click");
+		}
+	});
+	$("#passworddr").keyup(function(){
+		if(event.keyCode ==13){
+			$("#btndr").trigger("click");
+		}
+	});
+});
+$(document).ready(function(){
+	$("#btnzc").click(function(){
+		$.post("ServletRegister",{
+			"usernamezc":$("#usernamezc").val(),
+			"passwordzc":$("#passwordzc").val(),
+			"conpasswordzc":$("#conpasswordzc").val()},function(data,status){
+				if(data=="1"){
+					window.location.href="sel1sy.html";
+				}else{
+					myalert(data);
+				}
+		});
+	});
+});

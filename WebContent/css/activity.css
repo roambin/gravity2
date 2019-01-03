@@ -1,0 +1,41 @@
+
+
+.hdxx{float:left;width:98vw;font-size:3vmin;font-family:微软雅黑;margin:1% 0;}
+	.hdxxl{float:left; width: 23%;background: #ffffff;}
+	    .pic{float:left;width:100%;min-height:20vmin;background: #3a5298;}
+			.picimg{max-width:100%;max-height:21vh;margin:auto;}
+		.like{text-align:center;float:left;width:50%;background: #ea5f7a;color:#ffffff;}
+			.likep{max-width:100%;max-height:4.5vmin;}
+			.liket{display:inline;text-align:center;color:#ffffff;font-size:100%;font-family:微软雅黑;}
+	    .join{text-align:center;float:left;width: 50%;background: #ea5f7a;color:#ffffff;}
+			.joinp{max-width:100%;max-height:4.5vmin;}
+			.joint{display:inline;text-align:center;color:#ffffff;font-size:100%;font-family:微软雅黑;}
+		#likenum{text-align:center;float:left;width: 50%;background: #ea5f7a;color:#ffffff;font-family:微软雅黑;}
+		#joinnum{text-align:center;float:left;width: 50%;background: #ea5f7a;color:#ffffff;font-family:微软雅黑;}
+	.hdxxr{float:left; width: 76%;background: #ffffff;font-family:微软雅黑;}
+		.btnb{position:relative;top:0;z-index:900;overflow:auto;display:none;text-align:center;width:100%;background:#ea5f7a;color:#ffffff;cursor:pointer;border:0.4vmin solid #ea5f7a;}
+		.hdjj{position:relative;top:0;z-index:900;overflow:auto;display:none; float: left;width:100%;max-height:40vh; background: #648dff;border-style:solid;border-width:0.4vmin;border-color:#ea5f7a;}
+			.hdjjcon{overflow:auto;}
+		.hdm{float: left;width: 100%;background: #4e6fc8;}
+		#addfl{font-size:90%;color:#ffffff;}
+		#peonum{font-size:90%;}
+		#crashflag{font-size:90%;}
+		#delflag{font-size:90%;color:#ff8485;}
+	    .shdjj{float: left;width: 100%;background: #648dff;}
+	    		.btna{float:right;color:#ffffff;font-size:100%;cursor:pointer;}
+	    .fqr{text-align: right; float: left;width: 100%;background: #648dff;}
+	    .time{float: left;width: 100%;background: #82a4f8;font-size:90%}
+		.place{float: left;width: 100%;background: #a0bcff;}
+		#add{float:left;width:100%;background: #ffffff;text-align:center;font-size:100%;color:#3a5399;border:0.6vmin dashed #ea5f7a;}
+		#addtr{}
+			#hyjoin{width:32%;}
+	    		#hylike{width:32%;}
+			#addjoin{display:none;width:32%;}
+	    		#addlike{display:none;width:32%;}
+	    		#addflag{width:32%;color:#1e91dc}
+		    	#addedit{display:none; width:20%;font-size:100%;color:#ea5f7a;text-align:center;padding:0 1%;cursor:pointer;}
+		    	#adddele{display:none; width:20%;font-size:100%;color:#ea5f7a;text-align:center;padding:0 1%;cursor:pointer;}
+
+
+#isbottom{width:98vw;float:left;text-align:center;background: #ffffff;color:#3a5298;font-size:5vmin;font-family:微软雅黑;padding:1% 0;margin:0;border:1vmin dashed #3a5298;}
+

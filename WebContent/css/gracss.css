@@ -1,0 +1,131 @@
+a:link {color: #ffffff;text-decoration:none;}    /* 未被访问的链接 */
+a:visited {color: #ffffff;text-decoration:none;} /* 已被访问的链接 */
+a:hover {color: #3a5399;text-decoration:none;}   /* 鼠标指针移动到链接上 */
+a:active {color:#3a5399;text-decoration:none;}  /* 正在被点击的链接 */
+#a1:link {color: #ea5f7a;text-decoration:none;}
+#a1:visited {color:#ea5f7a;text-decoration:none;}
+#a1:hover {color: #3a5399;text-decoration:none;}
+#a1:active {color:#3a5399;text-decoration:none;}
+#a2:link {color: #3a5399;text-decoration:none;}
+#a2:visited {color:#3a5399;text-decoration:none;}
+#a2:hover {color: #ff4672;text-decoration:none;}
+#a2:active {color:#ff4672;text-decoration:none;}
+#a3:link {color: #ff4672;text-decoration:none;}
+#a3:visited {color:#ff4672;text-decoration:none;}
+#a3:hover {color: #3a5399;text-decoration:none;}
+#a3:active {color:#3a5399;text-decoration:none;}
+.a4:link {color: #ea5f7a;text-decoration:none;}
+.a4:visited {color:#ea5f7a;text-decoration:none;}
+.a4:hover {color: #ea5f7a;text-decoration:none;}
+.a4:active {color:#ea5f7a;text-decoration:none;}
+.a5:link {color: #ffffff;text-decoration:none;}
+.a5:visited {color:#ffffff;text-decoration:none;}
+.a5:hover {color: #ea5f7a;text-decoration:none;}
+.a5:active {color:#3a5399;text-decoration:none;}
+
+input{outline:none;}
+textarea{outline:none;resize:none;}
+select{outline:none;}
+option{font-size:4vmin;}
+
+#header {float:left;width:100vw; height:30vmin; background-color: #3a5399; color:white; text-align:left; padding:0; font-size:10vmin; font-family:微软雅黑;}
+	#h1{float:left; height:75%;color:white; text-align:left; font-size:110%;}
+	.gravitypicarea{float:left;width:20%;justify-content:center;align-items:center;float:left; height:100%;}
+		.gravitypic{float:left;width:100%;}
+	#drzc{float:right;left:50%;width:40%;heigth:100%;background-color: #3a5399; color:white; text-align:center;font-size:150%;cursor:default;margin:0 3% 0 0;}
+		#dr{float:right; background-color: #3a5399; color:white; text-align:left; padding:0; margin:1vmin 0 1vmin 3vmin; font-size:30%;cursor:pointer;}
+		#fg{float:right; background-color: #3a5399; color:white; text-align:left; padding:0; margin:1vmin; font-size:30%;}
+		#zc{float:right; background-color: #3a5399; color:white; text-align:left; padding:0; margin:1vmin 0 1vmin 3vmin; font-size:30%;cursor:pointer;}
+		#plsLogin{float:right;max-width:22vmin;max-height:22vmin;margin:1vmin 0 0 0}
+	#zxl{float:right; width:40%;height:100%; background-color: #3a5399; color:white; text-align:left;font-size:100%;cursor:default;}
+		#tx{float:right; width:50%; height:100%; overflow:hidden; background-color: #3a5399; color:white; text-align:center;font-size:100%;}
+			#tximg{max-height:100%;max-width:100%;overflow:hidden}
+		#yhzx{float:right;width:48%; height:100%; background-color: #3a5399; color:white; text-align:right; font-size:35%;margin:0 2% 0 0;}
+			#zx{float:right; width:100%;background-color: #3a5399; color:white; text-align:right;font-size:110%;}
+			#zxa:hover {color: #ff4672;text-decoration:none;}
+	
+#header2{display:none;float:left;width:100vw; height:35vmin;background-color: #ff4672; color:white; text-align:center;font-size:10vmin; font-family:微软雅黑;}
+	#gravitypicarea2{max-width:15vmin;max-height:15vmin;}
+	#drzcl{float:left;overflow:visible; width:77vw; height:35vmin;color:white; text-align:left;}
+		.drzcf{display:none; float:right;text-align:left;height:28vmin;width:75vmin;padding:1vmin;}
+			.drzcInputCon{float:left;width:73vmin;height:8vmin;}
+				.drzcWord{float:left;width:15vmin;font-size:3.5vmin;margin:1vmin 0;}
+				.drzcInput{float:left;width:45vmin;border:0.6vmin dashed #ffffff;border-radius:2%;background-color:transparent;color:#ffffff;font-size:3.5vmin;margin:1vmin 0;caret-color:#ffffff;}
+			.drzcBtnCon{float:left;width:73vmin;height:8vmin;}
+				.drzcBtn{float:left;width:20vmin;height:5.7vmin;background-color:transparent;border:0.6vmin dashed #ffffff;border-radius:100%;color:#ffffff;font-size:3.5vmin;cursor:pointer;margin:1vmin 0 0 20vmin;}
+				.hdmbk{float:left; width:20vmin; height:5vmin; color:white; text-align:left; font-size:3.5vmin;margin:1vmin 0 0 0;cursor:pointer;}
+
+#header3{top:20%;float:left;width:100vw;height:10vmin; color:white; text-align:center; padding:0 0 0 0; margin:0 0 0 0; font-size:5vmin; font-family:微软雅黑;}
+	#select{float:left; height:100%; width:100%; background-color: #ff4672; text-align:center; padding:0 0 0 0;font-size:5vmin;}
+		.selectcontent{cursor:pointer}
+
+.myInputSel{background-color:#3a5399;width:99vw;height:20vmin;float:left;padding:2vmin 1vmin;font-size:5vmin;color:#ffffff;font-family:微软雅黑;}
+	.mybtnSelCon{width:100%;height:100%;float:left;}
+		.mybtnSel{float:left;border: 0.6vmin dashed #ffffff; border-radius:20%;text-align:center;cursor:pointer;margin:0 2% 0 0;padding:1%;}
+.myInput{background-color:#3a5399;width:99vw;float:left;padding:2vmin 1vmin;font-size:5vmin;color:#ffffff;font-family:微软雅黑;}
+	.myInputHead{position:relative;left:6%;width:80%;height:10vmin;border:1vmin solid #ffffff; border-radius:40%;text-align:center;font-size:100%;}
+	.myInputForm{width:100%;height:250vmin;text-align:left;font-size:100%;}
+	#myInputFormPerInfo{height:130vmin;}
+	#myInputFormPerPass{height:60vmin;}
+	#myInputFormActivity{height:200vmin;}
+		.picSubmitCon{position:relative;left:10%;float:left;width:100%;height:40vmin;margin:0 0 0 0;}
+			.picFloatInfo{position:absolute;z-index:800;top:30%;width:35%;height:20%;font-size:100%;text-align:left;background:#3a5399;opacity:0.8;cursor:pointer;padding:0 0 0 1%;}
+			.preview{max-height:100%;max-width:100%;border:0.6vmin dashed #ffffff;border-radius:15%;cursor:default;}
+		.myInputFileBtn{display:none;}
+		.mybtnCon{float:left;width:100%;height:8vmin;margin:4% 0;}
+			.mybtn{border: 0.6vmin dashed #ffffff; border-radius:20%;width:22%;text-align:center;cursor:pointer;}
+		.myInputText{width:70%;height:7vmin;border:0.4vmin dashed #ffffff;border-radius:2%;background-color:transparent;font-size:80%;color:#ffffff;font-family:微软雅黑;caret-color:#ff4672;margin:1% 0;}
+		.myInputTextarea{width:98%;height:24vmin;border:0.4vmin dashed #ffffff;border-radius:2%;background-color:transparent;font-size:80%;color:#ffffff;font-family:微软雅黑;caret-color:#ff4672;margin:1% 0;}
+		.mySelect{width:71%;height:9vmin;font-size:11vmin;border:0.4vmin dashed #ffffff;border-radius:2%;background-color:transparent;font-size:80%;color:#ffffff;font-family:微软雅黑;caret-color:#ff4672;margin:1% 0;}
+
+
+
+
+
+#seltip{float:left; width:100vw;height:13vmin;background: #ffffff;font-family:微软雅黑;font-size:4vmin;color:#3a5399;text-align:center;cursor:pointer}
+	#seltippoint{float:left;width:100%;color:#ff4672;}
+		.seltipp1{float:left;width:20%;height:10%;}
+		.seltipp2{opacity:0;float:left;width:20%;height:10%;}
+		.seltipp3{opacity:0;float:left;width:20%;height:10%;}
+		.seltipp4{opacity:0;float:left;width:20%;height:10%;}
+	#seltipname{float:left;width:100%;}
+		.seltip1{float:left;background:#ffffff;width:20%;height:80%;border-top:0.6vmin solid #ff4672;border-bottom:0.6vmin solid #ff4672;border-left:0.6vmin solid #ff4672;}
+		.seltip2{float:left;background:#ffffff;width:20%;height:80%;border-top:0.6vmin solid #ff4672;border-bottom:0.6vmin solid #ff4672;}
+		.seltip3{float:left;background:#ffffff;width:20%;height:80%;border-top:0.6vmin solid #ff4672;border-bottom:0.6vmin solid #ff4672;}
+		.seltip4{float:left;background:#ffffff;width:20%;height:80%;border-top:0.6vmin solid #ff4672;border-bottom:0.6vmin solid #ff4672;}
+	#seltipline{float:left; background:#ff4672;width:100vw;height:0.6vmin;overflow:hidden;margin:-0.6vmin 0 0 0;}
+	
+#fqhdpiccon{float:left;width:100vw;}
+	#fqhdpic{float:left;width:22%;margin:0 39% 0 39%;}
+
+
+#addswit{text-align:left;width:97vw;float:left;padding:0;margin:0;font-size:3.5vmin;color:#3a5399;font-family:微软雅黑;border-left:0.6vmin dashed #ff4672;border-bottom:0.6vmin dashed #ff4672;}
+	#addswittable{float:right;white-space:nowrap;width:100%;height:12vmin;}
+		.addswitelemcon{width:20%;height:100%;}
+			.addswitelem{width:85%;height:50%;border:0.4vmin solid #ff4672;border-radius:0%;background-color:transparent;font-size:100%;color:#3a5399;caret-color:#ff4672;}
+			#addswitclas{height:56%;}
+			#addswitsubmit{width:60%;height:70%;border:0 solid #ff4672;border-radius:20%;background-color:#ff4672;font-size:100%;color:#fff;}
+
+
+#myalert{position:fixed;z-index:990;top:40%;width:100vw;opacity:0.9;}
+	#myalerttext{position:relative;background:#ea5f7a;color:#ffffff;text-align:center;font-size:4vmin;font-family:微软雅黑;opacity:1;padding:0%;}
+	
+.selectTitleCon{float:left;width:100vw;height:8vmin;margin:5vmin 0 3vmin 0;}
+	.selectTitleName{float:left;color:#3a5399;font-size:5vmin;font-family:微软雅黑;}
+	.selectRecommendChange{float:left;color:#ff4672;font-size:4vmin;font-family:微软雅黑;margin:0 0 0 2vmin;cursor:pointer;}
+	.selectRecommendChange:active{color:#3a5399;}
+	.selectRecommendChange:hover{color:#3a5399;}
+	.selectTitleLine{height:0.6vmin;width:100vw;background-color:#ff4672;border:none;}
+
+.reminder{display:none;position:fixed;z-index:980;top:8vmin;width:40vmin;color:#ffffff;text-align:center;font-size:4vmin;font-family:微软雅黑;opacity:0.98;padding:1vmin;cursor:default}
+	.reminderTipCon{position:relative;height:12vmin;background-color:#ea5f7a;border-radius:50%;padding:1%;box-shadow:1vmin 1vmin 2vmin #643d49}
+		.reminderTip{}
+		.reminderBtn{float:left;width:49%;cursor:pointer;}
+		#reminderBtnCheckBk{display:none;}
+	.reminderListCon{display:none;background-color:#ea5f7a;padding:0 1vmin 1vmin 1vmin;margin:1vmin 0;border-radius:7%;box-shadow:1vmin 1vmin 2vmin #643d49}
+		.reminderListElem{}
+			.reminderListElemName{width:30vmin;}
+				.reminderHerf{width:100%;}
+			.reminderListElemNum{width:10vmin;}
+#RecommendUserCon{display:none;}
+	.isHasRecommend{display:none;width:100vw;float:left;text-align:center;background: #ffffff;color:#3a5298;font-size:5vmin;font-family:微软雅黑;padding:1% 0;margin:1vmin 0 0 0;border:1vmin dashed #3a5298;}

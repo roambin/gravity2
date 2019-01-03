@@ -1,0 +1,13 @@
+#bjperinf{background-color:#3a5399;width:80vw;float:left;padding:1%;font-size:4vmin;color:#ffffff;font-family:微软雅黑;}
+	#bjuser{text-align:left;float:left;width:100%;color:#ffffff;font-family:微软雅黑;border:0.7vmin dashed #ffffff;}
+		#bjuser1{width:25%;margin:0;text-align:center;}
+			#bjuserpic{max-width:100%;max-height:25vh;}
+			#bjusersel{width:100%;}
+		#bjuser2{width:65%;margin:0;}
+			#bjuserinf{margin:0px;line-height:150%;}
+		#bjuser3{width:8%;text-align:center;line-height:160%;margin:0;}
+			#bjuserty{background:#3bad5e;cursor:pointer;padding:25% 0;}
+			#bjuserjj{background:#d85b5b;cursor:pointer;padding:25% 0;}
+			#bjuserlt{display:none;background:#1e91dc;cursor:pointer;padding:25% 0;}
+		    #bjusertj{display:none;background:#3bad5e;cursor:pointer;padding:25% 0;}
+		    	#bjusersc{display:none;background:#d85b5b;cursor:pointer;padding:25% 0;}
